@@ -18,16 +18,16 @@
   <nav>
     <div class="container">
       <div class="navigation">
-        <h1>Hover Page<span id="xyztitle">XYZ</span></h1>
+        <h1 id="title" >Hover Page<span id="xyztitle">XYZ</span></h1>
         <ul>
-			 <div class="flex">
-				<div class="flexitem">
+			 <div id="icon-container" class="flex">
+				<div id="html5" class="flexitem">
 					<i class="fa fa-html5 fa-3x" aria-hidden="true"></i>
 				</div>
-				<div class="flexitem">
+				<div id="css3" class="flexitem">
 					<i class="fa fa-css3 fa-3x" aria-hidden="true"></i>
 				</div>
-				<div class="flexitem">
+				<div  id="terminal" class="flexitem">
 					<i class="fa fa-terminal fa-3x" aria-hidden="true"></i>
 				</div>
 			</div>
@@ -35,12 +35,18 @@
       </div>
     </div>
   </nav>
-
-	<div class="container">
-	  <div class="content-container">
-		<p class="show" data-text="html5" id="text-html5" >lorem ipsum</p>
-		<p class="show" data-text="css3" id="text-css3" >lorem ipsum</p>
-		<p class="show" data-text="terminal" id="text-terminal" >lorem ipsum</p>
+  
+		<div class="video-flex">
+			<video autoplay loop id="video-background" muted plays-inline>
+				<source src="media/coding.mp4" type="video/mp4">
+			</video>
+		</div>
+		
+			<div class="container-extra">	
+	  <div id="content-container" class="content-container">
+		<p class="hidden" data-text="html5" id="text-html5" >HTML5</p>
+		<p class="hidden" data-text="css3" id="text-css3" >CSS</p>
+		<p class="hidden" data-text="terminal" id="text-terminal" >Terminal</p>
 	  </div>
 	</div>
 
