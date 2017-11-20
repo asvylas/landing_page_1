@@ -8,6 +8,12 @@ html {
 *::selection {
   background: transparent;
   color:black;
+  margin:auto;
+  padding:auto;
+}
+p{
+	font-size: 12pt;
+	font-weight: normal;
 }
 
 /* Scroll bar */
@@ -28,18 +34,18 @@ width: 0px;
 
 .container {
   text-align: center;
-  width: 40%;
+  width: 60%;
   max-width: 600px;
   margin: auto;
 }
 
 .container-extra{
   text-align: center;
-  width: 40%;
+  width: 60%;
   max-width: 600px;
   margin: auto;
   height: 80%;
-  background: url(media/coding.mp4)
+  background: url(media/coding.mp4);
 }
 
 
@@ -111,6 +117,13 @@ footer {
 	padding: 5px 5px 10px 5px;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.0);
 	
+}
+.flexitemclicked{
+	position: relative;
+	cursor: pointer;
+	flex:1;
+	padding: 5px 5px 10px 5px;
+	border-bottom: 2px solid black;
 }
 
 .flexitem:hover::before {

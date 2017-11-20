@@ -6,7 +6,7 @@
 
 /* Animations*/
 
-@keyframes flexitem-bot-border {
+@keyframes flexitem-bot-border{
 
 	0% {	
 	border-bottom: 2px solid rgba(0, 0, 0, 0.0);
@@ -21,3 +21,25 @@
 	height: 100%;
 	}
 }
+
+@keyframes fadeInRight {
+   0% {
+      opacity: 0.1;
+      transform: translateX(500px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+} 
+
+@keyframes fadeInLeft {
+   0% {
+      opacity: 0.1;
+      transform: translateX(-500px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+} 
